@@ -7,3 +7,4 @@ jobs:
       - name: Display
         run: python test.py
         shell: bash
+        working-directory: scripts
