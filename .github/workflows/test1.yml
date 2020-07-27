@@ -1,2 +1,9 @@
 on: [push, pull_request]
-python test.py
+
+jobs:
+  job_id:
+    runs-on: Ubuntu
+    steps:
+      - name: Display
+        run: python test.py
+        shell: bash
