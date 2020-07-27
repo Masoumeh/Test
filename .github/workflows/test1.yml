@@ -2,7 +2,7 @@ on: [push, pull_request]
 
 jobs:
   job_id:
-    runs-on: Ubuntu
+    runs-on: ubuntu-18.04
     steps:
       - name: Display
         run: python test.py
