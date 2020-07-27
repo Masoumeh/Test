@@ -5,6 +5,9 @@ jobs:
     runs-on: ubuntu-18.04
     steps:
       - name: Display
-        run: python test.py
-        shell: bash
+        run: |
+          print("hi")
+          a = 3
+          print("hh")
+        shell: python
         working-directory: scripts
