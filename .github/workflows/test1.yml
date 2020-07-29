@@ -5,5 +5,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Display
-        run: python3 ./.github/workflows/test.py
+        run: python -c "import sys; print(sys.version)"
         working-directory: scripts
