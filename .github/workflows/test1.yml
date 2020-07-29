@@ -9,5 +9,4 @@ jobs:
           print("hi")
           a = 3
           print("hh")
-        shell: python3
         working-directory: scripts
