@@ -2,11 +2,12 @@ on: [push, pull_request]
 
 jobs:
   job_id:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
     steps:
       - name: Display
         run: |
+          python3
           print("hi")
           a = 3
-          print("hh")
+          print(a)
         working-directory: scripts
